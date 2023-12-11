@@ -72,7 +72,7 @@ def send_email(to_email, subject, body):
     return to_email, message.as_string()
 
 def main():
-    file_path = 'xmas_23_new.csv'  # Update with your file path
+    file_path = 'names_email.csv'  # Update with your file path
     participants = load_participants(file_path)
     
     try:
